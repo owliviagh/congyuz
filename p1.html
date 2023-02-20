@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Olivia's 1st Proj</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light">
+      <div class="container-xl">
+        <a class="navbar-brand align-items-center" href="index.html">
+          Olivia's.
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero-wrap hero-wrap-2">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 pt-5 mt-5 text-center">
+            <p class="breadcrumbs"><span class="me-2"><a href="index.html">Blog <i class="ion-ios-arrow-round-forward"></i></a></span> <span>1st Project <i class="ion-ios-arrow-round-forward"></i></span></p>
+            <h1 class="mb-0 bread">Details</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section pt-0">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 blog-single">
+             <div class="tag-widget post-tag-container mb-5 mt-5">
+              <div class="tagcloud">
+                <a href="#" class="tag-cloud-link">blog</a>
+                <a href="#" class="tag-cloud-link">project</a>
+                <a href="#" class="tag-cloud-link">website</a>
+                <a href="#" class="tag-cloud-link">local guide app</a>
+                <a href="#" class="tag-cloud-link">matching</a>
+              </div>
+            </div>
+            <h2 class="mb-5">Main Idea</h2>
+            <p>In order to allow students to conveniently, truthfully, and timely understand unbiased information and make the most rational judgments independently, we have built this platform. Some predecessors who have attended the dream schools of students are also willing to share their experiences or provide help for students onboarding. Students can also find their own mentors on this platform. The purpose of this platform is to break the information asymmetry, build a communication framework and starting point for students and mentors matched by their target regions, interests, and hobbies. Of course, a secure payment methods is also provided to make the interaction between both parties safe with the help of the platform.</p>
+              
+            <h3 class="mb-2">Our Goal:</h3>
+            <p>In terms of investment, housing, recreation, academics, and daily life, students can be matched with mentors based on their own needs. At the same time, news and event promotions for targeted regions can be provided and pushed to them.</p>
+            
+            <h3 class="mb-2">Difficulties:</h3>
+            <p>The problems of this website is like the chicken or the egg problems, which requires a sufficient number of mentors to attract enough students, and at the same time, a sufficient number of students are needed to attract enough mentors. Without a large amount of funding for marketing, it is difficult to generate a significant amount of natural traffic. The outbreak of the epidemic caused many Chinese students to give up or postpone their plans to study abroad, making it even more difficult to promote the website.</p>
+              
+            <h3 class="mb-2">What made this possible:</h3>
+            <p>SpringBoot, VueJS, bootstrap</p>
+              
+            <p>
+            <h2 class="mb-3">#1. Responsive UI</h2>
+            <p>We used the latest version of bootstrap (https://getbootstrap.com) to implement the whole website. All the pages will adapt to whatever device client is using and get the best visualizations. </p>
+            <p>
+              <img src="images/p1_1.png" alt="" class="img-fluid">
+            </p>
+              
+            <h2 class="mb-3 mt-5">#2. Single Page Technology (SPA)</h2>
+            <p>The single page (SPA) technology is also used in our website. The SPA is the technology that can dynamically reload the content in the current page. By utilizing the SPA, the refresh of the entire page will not happen. The needed information will only be added as necessary such as user input and etc. The none-change part (like the logo, banner and the menu) of the page will not be refreshing again and again which can save a lot of traffics.</p>
+
+            <h2 class="mb-3 mt-5">#3. Autocomplete</h2>
+            <p>In order to let the users get the search results faster, I implemented autocomplete in the search box </p>
+            <p>
+              <img src="images/p1_2.png" alt="" class="img-fluid">
+            </p>
+            <p>However, there exists some issues with the auto complete. For instance, if the server responds to the auto-completion every time that user input a character, that will make hundreds of requests which is not necessary and resource consuming. Thus, I set a 100ms delay for making requests. In other words, if user is continuously typing, the client will not send any request to the server.</p>
+              
+            <h2 class="mb-3 mt-5">#4. Single Sign-On</h2>
+            <p>Single sign-on (SSO) is a technology which combines several different application login screens into one. With SSO, a user only has to enter their login credentials (username, password, etc.) one time on a single page to access all of their SaaS applications.
+            </p>
+            <p>
+              <img src="images/p1_3.png" alt="" class="img-fluid">
+            </p>
+              
+            <h2 class="mb-3 mt-5">#5. Pagination</h2>
+            <p>If one request for all the data, the initial load would super slow, bad user experience If one request only requests one page’s date, user will not have a smooth switch between pages.</p>
+            <p>Solution: Find a golden ratio, request, e.g. 10 pages per time, so user can smoothly switch between 1 - 10 page, and the initial load won’t be too slow, when user go to the 11th page, another request will be sent.
+
+            </p>
+
+            <h2 class="mb-3 mt-5">#6. Google Analytic Plug-ins</h2>
+            <p>Using the Google Analytic Track for details on user usage for better knowing the performance of our website.
+            </p>
+            
+          </div> <!-- .col-md-8 -->
+
+        </div>
+      </div>
+    </section> <!-- .section --> 
+
+    <footer class="ftco-footer">
+      <div class="container-xl">
+        <div class="row mb-5 justify-content-between">
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2 logo d-flex">
+                <a class="navbar-brand align-items-center" href="index.html">
+                  Olivia's
+                </a>
+              </h2>
+              <p>A small space where I keep my projects.</p>
+              <ul class="ftco-footer-social list-unstyled mt-2">
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Explore</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Blog</a></li>
+                <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>About Me</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">owliviaca@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-0 py-5 bg-darken">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="mb-0" style="font-size: 14px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Olivia <i class="fa fa-heart color-danger" aria-hidden="true"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/glightbox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rellax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
