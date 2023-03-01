@@ -62,50 +62,46 @@
               </div>
             </div>
             <h2 class="mb-5">Main Idea</h2>
-            <p>In order to allow students to conveniently, truthfully, and timely understand unbiased information and make the most rational judgments independently, we have built this platform. Some predecessors who have attended the dream schools of students are also willing to share their experiences or provide help for students onboarding. Students can also find their own mentors on this platform. The purpose of this platform is to break the information asymmetry, build a communication framework and starting point for students and mentors matched by their target regions, interests, and hobbies. Of course, a secure payment methods is also provided to make the interaction between both parties safe with the help of the platform.</p>
+            <p>The objective of my platform is to provide international students with a means to access unbiased information easily and quickly, allowing them to make informed decisions independently. To further aid in this process, the platform gives students the opportunity to seek guidance from individuals who have attended their dream schools. Additionally, students can connect with mentors who share similar interests and hobbies. This platform serves to eliminate information asymmetry, establish a framework for communication between students and mentors, and offer secure payment methods for safe transactions.</p>
               
-            <h3 class="mb-2">Our Goal:</h3>
-            <p>In terms of investment, housing, recreation, academics, and daily life, students can be matched with mentors based on their own needs. At the same time, news and event promotions for targeted regions can be provided and pushed to them.</p>
+            <h3 class="mt-2 mb-2">My Goal:</h3>
+            <p>Students can be paired with mentors who meet their specific requirements in regards to investment, housing, recreation, academics, and daily life. In addition, news and event updates for their respective regions can also be made available and delivered to them.</p>
             
-            <h3 class="mb-2">Difficulties:</h3>
-            <p>The problems of this website is like the chicken or the egg problems, which requires a sufficient number of mentors to attract enough students, and at the same time, a sufficient number of students are needed to attract enough mentors. Without a large amount of funding for marketing, it is difficult to generate a significant amount of natural traffic. The outbreak of the epidemic caused many Chinese students to give up or postpone their plans to study abroad, making it even more difficult to promote the website.</p>
+            <h3 class="mt-2 mb-2">Difficulties:</h3>
+            <p>The challenges faced by this website are akin to the classic "chicken and egg" problem, as it requires a critical mass of both mentors and students to attract each other. However, without substantial funding for marketing, it is challenging to generate enough natural traffic. Furthermore, the outbreak of the epidemic has caused many international students to either delay or abandon their plans to study abroad, which has further complicated the promotion of the website.</p>
+      
+            <h3 class="mt-2 mb-2">What made this possible:</h3>
+            <p>Spring Boot, VueJS, Bootstrap</p>
               
-            <h3 class="mb-2">What made this possible:</h3>
-            <p>SpringBoot, VueJS, bootstrap</p>
-              
+            <h2 class="mt-5 pt-5 mb-2">I contributed to the following:</h2>
             <p>
-            <h2 class="mb-3">#1. Responsive UI</h2>
-            <p>We used the latest version of bootstrap (https://getbootstrap.com) to implement the whole website. All the pages will adapt to whatever device client is using and get the best visualizations. </p>
+            <h2 class="mt-5 mb-3">1. Responsive UI</h2>
+            <p>I employed the most up-to-date version of bootstrap (https://getbootstrap.com) to develop my website, ensuring that all pages can adjust to any device used by the client and provide optimal visual displays.</p>
             <p>
               <img src="images/P1/p1_1.png" alt="" class="img-fluid shadow p-3 mb-5 bg-white rounded">
             </p>
               
-            <h2 class="mb-3 mt-5">#2. Single Page Technology (SPA)</h2>
-            <p>The single page (SPA) technology is also used in our website. The SPA is the technology that can dynamically reload the content in the current page. By utilizing the SPA, the refresh of the entire page will not happen. The needed information will only be added as necessary such as user input and etc. The none-change part (like the logo, banner and the menu) of the page will not be refreshing again and again which can save a lot of traffics.</p>
+            <h2 class="mb-3 mt-5">2. Single Page Technology (SPA)</h2>
+            <p>My website also utilizes the single page application (SPA) technology, which allows for the dynamic reloading of content within the current page without having to refresh the entire page. This technology enables only necessary information, such as user input, to be added without repeatedly refreshing unchanged elements of the page, such as the logo, banner, and menu. This approach results in significant savings in website traffic.</p>
 
-            <h2 class="mb-3 mt-5">#3. Autocomplete</h2>
-            <p>In order to let the users get the search results faster, I implemented autocomplete in the search box </p>
+            <h2 class="mb-3 mt-5">3. Auto Complete</h2>
+            <p>To enhance user experience and expedite search results, I integrated autocomplete functionality into the search box.</p>
             <p>
               <img src="images/P1/p1_2.png" alt="" class="img-fluid shadow p-3 mb-5 bg-white rounded">
             </p>
-            <p>However, there exists some issues with the auto complete. For instance, if the server responds to the auto-completion every time that user input a character, that will make hundreds of requests which is not necessary and resource consuming. Thus, I set a 100ms delay for making requests. In other words, if user is continuously typing, the client will not send any request to the server.</p>
+            <p>Nonetheless, there are some challenges associated with the autocomplete feature. If the server responds each time the user inputs a character, it could generate hundreds of unnecessary and resource-intensive requests. To mitigate this issue, I implemented a 100ms delay for requests. In other words, if the user types continuously, the client will refrain from sending requests to the server.</p>
               
-            <h2 class="mb-3 mt-5">#4. Single Sign-On</h2>
-            <p>Single sign-on (SSO) is a technology which combines several different application login screens into one. With SSO, a user only has to enter their login credentials (username, password, etc.) one time on a single page to access all of their SaaS applications.
-            </p>
+            <h2 class="mb-3 mt-5">4. Single Sign-On</h2>
+            <p>I developed the single sign-on (SSO) feature for user convenience. Single sign-on (SSO) is a technology that consolidates multiple application login screens into a single page. With SSO, a user can access all of their SaaS applications by entering their login credentials (such as username and password) only once on the SSO page.</p>
             <p>
               <img src="images/P1/p1_3.png" alt="" class="img-fluid shadow p-3 mb-5 bg-white rounded">
             </p>
               
-            <h2 class="mb-3 mt-5">#5. Pagination</h2>
-            <p>If one request for all the data, the initial load would super slow, bad user experience If one request only requests one page’s date, user will not have a smooth switch between pages.</p>
-            <p>Solution: Find a golden ratio, request, e.g. 10 pages per time, so user can smoothly switch between 1 - 10 page, and the initial load won’t be too slow, when user go to the 11th page, another request will be sent.
+            <h2 class="mb-3 mt-5">5. Pagination</h2>
+            <p>Requesting all data at once would result in a slow initial load, leading to a poor user experience. Conversely, requesting data for only one page at a time would result in a lack of smooth transitions between pages. To address this, I determined a golden ratio, requesting data for 10 pages at a time, allowing users to seamlessly navigate between pages 1-10 while keeping the initial load time reasonable. Once the user reaches the 11th page, another request will be sent.</p>
 
-            </p>
-
-            <h2 class="mb-3 mt-5">#6. Google Analytic Plug-ins</h2>
-            <p>Using the Google Analytic Track for details on user usage for better knowing the performance of our website.
-            </p>
+            <h2 class="mb-3 mt-5">6. Google Analytic Plug-ins</h2>
+            <p>I signed up for Google Analytics to track user activity and gain insights into the website's performance</p>
             
           </div> <!-- .col-md-8 -->
 
@@ -124,11 +120,6 @@
                 </a>
               </h2>
               <p>A small space where I keep my projects.</p>
-              <ul class="ftco-footer-social list-unstyled mt-2">
-                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              </ul>
             </div>
           </div>
           <div class="col-md-6 col-lg-2">
@@ -142,7 +133,7 @@
           </div>
           <div class="col-md-6 col-lg">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <h2 class="ftco-heading-2">Have a Question?</h2>
               <div class="block-23 mb-3">
                 <ul>
                   <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">owliviaca@gmail.com</span></a></li>
